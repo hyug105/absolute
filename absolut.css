@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400');
+@import url('https://fonts.googleapis.com/css?family=Oswald:700');
+body,html{
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+}
+#wrap{
+    width: 100%;
+}
+.boxalign{
+    width: 1250px;
+    margin: auto;
+    text-align: center;
+}
+.Oswald{
+    font-family: 'Oswald',sans-serif;
+}
+header{
+    background-color: black;
+    color: #999;
+}
+#logo{
+    text-align: center;
+    padding: 3rem 0;
+}
+nav ul{
+    overflow: hidden;
+    width: 395px;
+    margin: auto;
+    color: #6b6b6b;
+    margin-top: 40px;
+}
+nav li{
+float: left;
+font-size: 1.3rem;
+transition: 0.3s;
+}
+nav li + li {
+    margin-left: 4rem;
+}
+nav li:hover {
+    color: #fff;
+}
+.more{
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+
+main{
+    background: url(/absolut.com/02main/mainvisual.jpg) center;
+    height: 780px;
+    color: #fff;
+}
+main h2{
+    padding-top: 20rem;
+    font-size: 10rem;
+}
+main h4{
+    font-size: 1.7rem;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-top: 20px
+}
+main .more{
+    background: #ddd;
+    color: rgb(180, 161, 161);
+    margin-top: 22rem;
+    font-size: 16px;
+}
+main .more:hover{
+    background: #222;
+    color: #ddd;
+}
+
+
+#products{
+    padding-top: 7rem;
+}
+.contitle{
+    border-bottom: 1px solid #ccc;
+}
+.contitle h2{
+    font-size: 7rem;
+    line-height: 1;
+}
+.contitle{
+    font-size: 1.3rem;
+    padding: 3rem 0 2rem;
+    line-height: 1.5;
+}
+.contitle p{
+    font-size: 1.3rem;
+    padding: 3rem 0 2rem;
+    line-height: 1.8rem;
+}
+
+
+.itemcover{
+    padding: 5rem 0;
+    display: inline-block;
+    margin-left: 88px;
+}
+.itemcover .left img{
+margin-left: 20px;
+}
+
+.itemcover li{
+    float: left;
+    width: 390px;
+    margin-bottom: 40px;
+}
+.itemcover li + li{
+    margin-left: 40px;
+}
+.itemcover li:nth-child(4){
+    margin-left: 0;
+}
+.itemcover .left a > *{
+    float: left;
+}
+.itemcover .right a > * {
+    float: right;}
+
+ .itemcover a {
+        display: block;
+        overflow: hidden;
+        padding: 20px;}
+
+.itemcover span {
+        display: block;
+          }
+
+.itemcover .textcover {
+width: 190px;
+padding-top: 1rem;
+}
+.itemcover .textcover .title {
+    font-size: 3rem;
+    line-height: 1;
+    margin: 3rem 0 1rem;
+  }
+  .itemcover li:hover {
+    box-shadow: 0 0 10px #999;
+    transition: 0.2s;
+  }
+
+  .itemcover .Oswald{
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .itemcover .ttext{
+    font-size: 12px;
+  }
+  
+  .morecover {
+    text-align: center;
+  }
+  .more {
+    background-color:  #ddd;;
+    color: rgb(180, 161, 161);
+    text-align: center;
+  }
+  /*호버시 효과*/
+  .more:hover {
+    background: #0e0e0e;
+    color: #ffffff;
+  }
+  .productsbut{
+    background-color:  #ddd;;
+    color: rgb(180, 161, 161);
+    width: 204px;
+    height: 44px;
+    position: relative;
+    left: 50%;
+    font-size: 1.3rem;
+    margin-left: -102px;
+}
+.productsbut:hover {
+    background: #0e0e0e;
+    color: #ffffff;
+    transition: 0.3s;
+  }
+  .recipes-bg {
+    background-image: url(/absolut.com/04recipes/fixedbg.jpg);
+    color: #fff;
+    margin-top: 84px;
+    text-align: center;
+}
+.recipes-bg h1{
+    position: relative;
+    font-size: 42px;
+    padding-top: 30px;
+    font-weight: 900;
+}
+.recipes-bg h4{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: 100;
+    line-height: 20px;
+}
+.recipes{
+    float: left;
+    margin-top: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -540px;
+}
+.recipes .img{
+    padding-top: 20px;
+    width: 360px;
+    height: 340px;
+    float: left;
+    text-align: center;
+    
+}
+.recipes .img:hover{
+    box-shadow: 2px 2px 10px #a7a7a7;
+}
+
+.text{
+    text-align: center;    
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+}
+.text2{
+    margin-top: 46px;
+}
+
+.recipebutton{
+    background: #ddd;
+    color: rgb(180, 161, 161);
+    width: 204px;
+    height: 44px;
+    position: relative;
+    top: 400px;
+    right: 50%;
+    font-size: 1.3rem;
+}
+.recipebutton:hover {
+    background: #0e0e0e;
+    color: #ffffff;
+    transition: 0.3s;
+    }
+    footer{
+        margin-top: 700px;
+        height: 208px;
+        background-color: black;
+        
+    }
+    footer .img{
+        position: relative;
+        top: 40px;
+        display: block;
+        left: 50%;
+    }
+    footer .img1{
+        margin-left: -50px;
+        border-bottom: #6b6b6b 2px solid;
+        padding-bottom: 10px;
+    }
+    footer .img2{
+        top: 80px;
+        margin-left: -80px;
+        
+    }
