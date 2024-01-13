@@ -52,7 +52,7 @@ nav li:hover {
 
 
 main{
-    background: url(/absolut.com/02main/mainvisual.jpg) center;
+    background: url(/img/02main/mainvisual.jpg) center;
     height: 780px;
     color: #fff;
 }
@@ -187,7 +187,7 @@ padding-top: 1rem;
     transition: 0.3s;
   }
   .recipes-bg {
-    background-image: url(/absolut.com/04recipes/fixedbg.jpg);
+    background-image: url(/img/04recipes/fixedbg.jpg);
     color: #fff;
     margin-top: 84px;
     text-align: center;
